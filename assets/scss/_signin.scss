@@ -1,0 +1,29 @@
+.signin {
+    .left {
+        &__heading {
+            font-size: 36px;
+            line-height: 3rem;
+            width: 50%;
+            text-align: center;
+
+            .settle {
+                font-weight: $semibold;
+                text-transform: uppercase;
+            }
+        }
+
+        &__para {
+            font-size: 13px;
+            margin-top: 1rem;
+        }
+
+        &__button {
+            width: 70%;
+            margin-top: 1.5rem;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            height: 50px;
+        }
+    }
+}

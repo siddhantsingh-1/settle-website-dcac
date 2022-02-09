@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import "config";
+@import "config", "signin";
 
 * {
     box-sizing: border-box;
@@ -11,4 +11,48 @@ body {
     font-family: 'Roboto', sans-serif;
     background: $bg-gradient;
     height: 100vh;
+}
+
+.main {
+    width: 75%;
+    height: 650px;
+    grid-template-columns: 1fr 2fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    background-color: $red-main;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    &__heading,
+    &__para,
+    &__button {
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: $regular;
+    }
+}
+
+.right {
+    background-color: $grey-bg;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+
+    &:hover {
+        cursor: pointer;
+    }
 }

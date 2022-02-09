@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.signin .left__heading {
+  font-size: 36px;
+  line-height: 3rem;
+  width: 50%;
+  text-align: center;
+}
+
+.signin .left__heading .settle {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.signin .left__para {
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.signin .left__button {
+  width: 70%;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  height: 50px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11,5 +37,59 @@ body {
   background: -webkit-gradient(linear, left top, right bottom, from(#982600), to(#004789));
   background: linear-gradient(to bottom right, #982600, #004789);
   height: 100vh;
+}
+
+.main {
+  width: 75%;
+  height: 650px;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  background-color: #A8320A;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left__heading, .left__para, .left__button {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.right {
+  background-color: #E4E4E4;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  border: none;
+  border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
