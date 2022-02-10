@@ -1,0 +1,13 @@
+.signup3 {
+	.left {
+		&__footer {
+			visibility: hidden;
+		}
+	}
+
+    .right {
+        &__para {
+            margin-top: 3rem;
+        }
+    }
+}

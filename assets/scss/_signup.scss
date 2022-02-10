@@ -57,6 +57,16 @@
 
     .right {
         text-align: center;
+        position: relative;
+
+        &__logo {
+            position: absolute;
+            top: 0.5rem;
+            right: 1rem;
+            text-transform: uppercase;
+            font-weight: $semibold;
+            font-size: 24px;
+        }
 
         &__heading {
             font-size: 36px;

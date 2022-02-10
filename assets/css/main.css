@@ -139,12 +139,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 1rem;
 }
 
@@ -232,6 +230,16 @@
 
 .signup .right {
   text-align: center;
+  position: relative;
+}
+
+.signup .right__logo {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .signup .right__heading {
@@ -266,6 +274,14 @@
 
 .signup2 .right__container {
   margin-top: 5rem;
+}
+
+.signup3 .left__footer {
+  visibility: hidden;
+}
+
+.signup3 .right__para {
+  margin-top: 3rem;
 }
 
 * {

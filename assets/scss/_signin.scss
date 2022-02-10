@@ -114,10 +114,8 @@
         &__icons {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            width: 40%;
-            margin-left: auto;
-            margin-right: auto;
+            gap: 1rem;
+            justify-content: center;
             margin-top: 1rem;
         }
 
