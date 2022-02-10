@@ -17,8 +17,14 @@
             margin-top: 1rem;
         }
 
-        &__button {
+        a {
+            margin-left: auto;
+            margin-right: auto;
             width: 70%;
+        }
+
+        &__button {
+            width: 100%;
             margin-top: 1.5rem;
             text-transform: uppercase;
             color: white;

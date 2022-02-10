@@ -16,8 +16,14 @@
   margin-top: 1rem;
 }
 
-.signin .left__button {
+.signin .left a {
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
+}
+
+.signin .left__button {
+  width: 100%;
   margin-top: 1.5rem;
   text-transform: uppercase;
   color: white;
