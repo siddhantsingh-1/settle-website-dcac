@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import "config", "signin";
 
 * {
@@ -8,9 +8,10 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: $bg-gradient;
     height: 100vh;
+    overflow: hidden;
 }
 
 .main {
@@ -19,6 +20,8 @@ body {
     grid-template-columns: 1fr 2fr;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 10vh;
 }
 
 .grid {
@@ -45,7 +48,58 @@ body {
 
 .right {
     background-color: $grey-bg;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    &__heading {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: $semibold;
+        color: $blue-main;
+    }
+
+    &__para {
+        font-size: 13px;
+        font-weight: $regular;
+    }
+
+    &__form-div {
+        margin-bottom: 1rem;
+    }
+
+    &__form-tag {
+        font-size: 13.5px;
+        font-weight: $regular;
+        margin-left: 1rem;
+    }
+
+    input {
+        border: 1px solid $blue-main;
+        width: 100%;
+        height: 50px;
+        border-radius: 50px;
+        padding: 1rem;
+        font-size: 15px;
+    }
+
+    &__form-button {
+        input {
+            background-color: $blue-main;
+            color: white;
+            font-size: 14px;
+            margin-top: 1rem;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $blue-hover;
+            }
+        }
+    }
 }
 
 button {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Login Page</title>
 </head>
+
 <body>
     <main class="main grid signin" id="main">
         <section class="left flex">
@@ -14,11 +16,44 @@
             <p class="left__para">Sign Up now!</p>
             <button class="left__button">Sign up</button>
         </section>
-        <section class="right grid">
-            <h3 class="right__subheading">WELCOME TO</h3>
-            <h1 class="settle">settle</h1>
-            <p class="right__para">Login to your account</p>
+        <section class="right flex">
+            <div class="right__container">
+                <h3 class="right__subheading">WELCOME TO</h3>
+                <h1 class="right__heading settle">settle</h1>
+                <p class="right__para">Login to your account</p>
+                <form action="" class="right__form">
+                    <div class="right__form-div">
+                        <label for="" class="right__form-tag">Username or Email</label>
+                        <input type="text" class="right__form-input" placeholder="Enter username or email">
+                    </div>
+                    <div class="right__form-div">
+                        <label for="" class="right__form-tag">Password</label>
+                        <input type="password" class="right__form-input" placeholder="Enter password">
+                    </div>
+                    <div class="right__form-button">
+                        <input type="submit" value="SIGN IN">
+                    </div>
+                </form>
+                <p class="signin forgot__password">Forgot password?</p>
+                <div class="or">
+                    <hr class="bar">
+                    <span class="or__span">or</span>
+                    <hr class="bar">
+                </div>
+                <div class="socials">
+                    <h3 class="socials__heading">Continue with social media</h3>
+                    <div class="socials__icons">
+                        <figure class="socials__icon">
+                            <img src="assets/social_logos/facebook-logo.png" alt="" class="socials__icon-img facebook">
+                        </figure>
+                        <figure class="socials__icon">
+                            <img src="assets/social_logos/google-logo.png" alt="" class="socials__icon-img google">
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
+
 </html>
