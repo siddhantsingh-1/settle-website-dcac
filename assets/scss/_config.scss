@@ -11,3 +11,9 @@ $regular: 400;
 $medium: 500;
 $semibold: 600;
 $bold: 700;
+
+// Center mixin
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import "config", "signin";
+@import "config", "signin", "signup1";
 
 * {
     box-sizing: border-box;
@@ -37,6 +37,7 @@ body {
     color: white;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     &__heading,
     &__para,
     &__button {
