@@ -189,6 +189,7 @@
   font-size: 34px;
   font-weight: 400;
   text-align: center;
+  width: 80%;
 }
 
 .signup .left__footer {
@@ -211,7 +212,7 @@
   margin-bottom: 0.2rem;
 }
 
-.signup .left__footer a {
+.signup .left__footer__link {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -261,6 +262,10 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.signup2 .right__container {
+  margin-top: 5rem;
 }
 
 * {

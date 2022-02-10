@@ -13,7 +13,9 @@
             font-size: 34px;
             font-weight: $regular;
             text-align: center;
+            width: 80%;
         }
+        
 
         &__footer {
             text-align: center;
@@ -34,7 +36,7 @@
                 margin-bottom: 0.2rem;
             }
     
-            a {
+            &__link {
                 margin-left: auto;
                 margin-right: auto;
                 width: 70%;
